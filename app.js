@@ -28,7 +28,7 @@ app.get('/pokemons', (req, res) => {
   ]);
 });
 
-app.post('/series', (req, res) => {
+app.get('/series', (req, res) => {
   res.json([
     "Breaking Bad",
     "The Bear",
