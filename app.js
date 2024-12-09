@@ -13,7 +13,7 @@ app.get('/req', (req, res) => {
 })
 
 app.get('/meunome', (req, res) => {
-  res.send('Meu nome é Daniel [Seu Sobrenome]');
+  res.send('Meu nome é Daniel Trovato');
 });
 
 app.get('/tico', (req, res) => {
